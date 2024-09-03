@@ -1,0 +1,556 @@
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family:  "Playfair Display", serif;;
+}
+
+.nav-bar{
+    height: 100px;
+    background-color: #025048;
+    display: flex;
+    justify-content:space-between;
+    align-items: center;
+}
+
+.logo{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.logo-text{
+    color: white;
+    font-size: 1.5rem;
+    margin-left: 5rem;
+}
+.nav-links ul{
+    height: 100px;
+    width: 30%;
+    display: flex;
+    
+    justify-content: center;
+    align-items: center;
+    gap: 2rem;
+}
+
+.nav-links ul li a{
+    color: white;
+    text-decoration: none;
+    font-size: 1.1rem;
+    gap: 10px;
+    font-family: "Poppins";
+    cursor: pointer;
+    position: relative;
+}
+
+.nav-links ul li a:hover{
+    text-decoration: underline;
+    line-height: 2px;
+}
+
+
+
+
+
+
+.nav-links ul li{
+    text-decoration: none;
+    list-style: none;
+}
+
+.shopping-cart-icon i{
+    color: white;
+    font-size: 1.5rem;
+    margin-right: 5rem;
+}
+
+.hero-section{
+    height: 700px;
+    background-color: #025048;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.hero-text{
+    height: 650px;
+    width: 800px;
+    padding: 5rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: left;
+    align-items: ;
+}
+
+.hero-text-p-sm{
+    font-size: 0.9rem;
+    color: white;
+    margin-bottom: 1rem;
+    margin-left: 0.3rem;
+    font-family: "Poppins";
+}
+
+.hero-text-h{
+    font-size: 4rem;
+    color: white;
+}
+
+.hero-text-p-lg{
+    font-size: 1.5rem;
+    color: white;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    margin-left: 0.3rem;
+}
+
+.shop-btn{
+    padding: 12px 35px;
+    font-size: 1.2rem;
+    color: white;
+    background-color: transparent;
+    border: 1px solid white;
+    transition: 0.5s;
+    margin-top: 1rem;
+    margin-left: 0.3rem;
+    font-family: "Poppins";
+    width: 200px;
+}
+
+.shop-btn:hover{
+    background-color: white;
+    color: #025048;
+}
+
+.hero-section-image{
+    height: 500px;
+    width: 400px;
+    background-color: black;
+    background-image: url(hero-1.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    margin-right: 8rem;
+    margin-bottom: 5rem;
+    margin-left: rem;
+}
+
+.about-container{
+    height: 1150px;
+}
+
+.about-text{
+    height: 400px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.about-txt-lg{
+    font-size: 3rem;
+    color: #025048;
+}
+
+.about-txt-sm{
+    font-size: 0.9rem;
+    font-family: "Poppins";
+    color: #025048;
+    align-self: flex-start;
+    margin-left: 10.3rem;
+}
+
+.about-image-container{
+    height: 700px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.only-image{
+    height: 690px;
+    width: 550px;
+    background-image: url(longCeramic.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    margin: 1rem;
+}
+
+.image-2{
+    height: 350px;
+    width: 550px;
+    background-image: url(ceramic-cup1.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    margin: 1rem;
+}
+
+.btn{
+    padding: 12px 35px;
+    font-size: 1.2rem;
+    color: white;
+    background-color: #025048;
+    border: 1px solid white;
+    transition: 0.5s;
+    margin-top: 1rem;
+    margin-left: 0.3rem;
+    font-family: "Poppins";
+    width: 200px;
+}
+
+.btn:hover{
+    background-color: white;
+    color: #025048;
+}
+
+.about-section-h{
+ color: #025048;
+}
+
+.about-section-p{
+    color: #025048;
+    font-family: "Poppins";
+}
+
+.popular-section{
+    height: 1600px;
+}
+
+.popular-section-txt{
+    height: 300px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    color: #025048;
+}
+
+.popular-section-h{
+    font-size: 3rem;
+    margin-top: 1rem;
+}
+
+.normal-p{
+    font-size: 0.9rem;
+    font-family: "Poppins";
+    align-self: flex-start;
+    margin-left: 14rem;
+    color: #025048;
+}
+
+.shop-section{
+    height: 1300px ;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.shop-container{
+    height: 500px;
+    width: 30%;
+    background-color: white;
+    margin: 1rem;
+}
+
+.shop-image{
+    height: 350px;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.shop-txt{
+    font-family: "Poppins";
+}
+
+.shop-txt-p{
+    color: rgba(128, 128, 128, 0.52);
+    font-size: 0.8rem;
+    font-family: "Poppins";
+    margin-top: 1rem;
+    
+
+}
+
+.shop-txt-lg{
+    font-size: 1.5rem;
+    font-family: "Poppins";
+    color: #025048;
+}
+
+
+.pricing-txt{
+    font-size: 1.2rem;
+    font-weight: bold;
+    color: rgba(45, 43, 43, 0.735);
+    margin-top: 0.5rem;
+}
+
+.shop-now-section{
+    height: 600px;
+    background-image: url(ceramin-back.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.shop-now-card{
+    height: 350px;
+    width: 900px;
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+
+}
+
+.shop-now-card-h{
+    color: #025048;
+    font-size: 3rem;
+    margin: 1rem;
+}
+
+.shop-now-p{
+    color: #025048;
+    font-family: "Poppins";
+    font-size: 1,5rem;
+}
+
+span{
+    margin-left: 7rem;
+}
+
+.customer-review-section{
+    height: 620px;
+    background-color: #ace5d357;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+   
+}
+
+.review-txt{
+    color: #025048;
+    font-size: 4rem;
+}
+
+.main-containers{
+    height: 400px;
+    margin: 1rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.review-container{
+    height: 300px;
+    width: 40%;
+    background-color: white;
+    margin: 3rem;
+    padding: 2rem;
+}
+
+.review-image{
+    height: 50px;
+    display: flex;
+   
+}
+
+.review-image1{
+    height: 46px;
+    width: 46px;
+    border-radius: 50%;
+    margin-right: 0.5rem;
+}
+
+.review-p{
+    font-family: "Poppins";
+    font-size: 0.9rem;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+}
+.review-p-md{
+    font-family: "Poppins";
+    font-size: 0.9rem;
+
+}
+
+.review-p-sm{
+    font-size: 0.7rem;
+    font-family: "Poppins";
+    color: rgba(128, 128, 128, 0.587);
+}
+
+.login-box{
+    height: 700px;
+    background-color: #025048;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.login-container{
+    width: 50%;
+    height: 400px;
+    background-color: white;
+    border-radius: 1rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.login-h{
+    font-family: "Poppins";
+    margin-bottom: 1rem;
+}
+
+.login-input{
+    height: 50px;
+    width: 50%;
+    font-size: 1.1rem;
+    padding: 0.2rem 1rem 0.2rem 1rem;
+    margin: 0.5rem;
+    border-radius: 1000px;
+    border: none;
+    box-shadow: 2px 2px 5px black;
+    font-family: "Poppins";
+}
+
+.login-input:hover{
+    background-color: rgba(128, 128, 128, 0.478);
+    
+}
+
+.login-btn{
+    height: 30px;
+    width: 20%;
+    border-radius: 1000px;
+    border: none;
+    box-shadow: 2px 2px 5px black;
+    background-color: #adc178;
+    margin: 1rem;
+    font-family: "Poppins";
+}
+
+.login-btn:hover{
+    background-color: white;
+}
+
+.login-txt{
+    font-size: small;
+    font-family: "Poppins";
+    color: rgba(128, 128, 128, 0.799);
+}
+
+@media (max-width: 400px){
+    .nav-bar{
+        display: none;
+    }
+    .hero-section{
+        flex-direction: column;
+    }
+   .hero-text-h{
+    font-size: 2rem;
+   }
+
+   .hero-text{
+    width: 300px;
+   }
+
+   .shop-btn{
+    font-size: 1rem;
+    padding: 10px 30px;
+    margin-right: 3rem;
+   }
+   
+   .image-1{
+        width: 300px;
+    }
+
+    .about-txt-lg{
+        font-size: 1rem;
+    }
+
+    .about-text{
+        height: 200px;
+        text-align: center;
+    }
+
+    .about-txt-sm{
+        font-size: 0.7rem;
+        text-align: center;
+    }
+    .about-container{
+        height: 1000px;
+    }
+
+    .about-section-h{
+        font-size: 1rem;
+        margin-left: 5px;
+    }
+    .about-image-container{
+        flex-direction: column;
+    }
+
+    .only-image{
+        height: 400px;
+    }
+
+    .about-section-p{
+        margin: 0;
+        margin-left: 4px;
+    }
+
+    .btn{
+        padding: 5px;
+        width: fit-content;
+        text-align: center;
+    }
+
+    .popular-section-h{
+        font-size: 1.5rem;
+        text-align: center;
+    }
+
+    .normal-p{
+        font-size: 1rem;
+        text-align: center;
+        margin: auto;
+    }
+    .shop-section{
+       
+    }
+
+    .popular-section-txt{
+        height: 150px;
+    }
+
+    .shop-container{
+        width: 100%;
+    }
+
+   .shop-now-card-h{
+    font-size: 1.5rem;
+   }
+
+   .review-txt{
+    font-size: 1rem;
+   }
+
+   .main-containers{
+    flex-direction: column;
+   }
+
+   .review-container{
+    width: 100%;
+   }
+}
